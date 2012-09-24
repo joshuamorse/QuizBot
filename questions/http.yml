@@ -1,0 +1,9 @@
+http-media-type-audio:
+    variants:
+        - "Name an audio internet media type."
+    answers: ['audio/basic', 'audio/L24', 'audio/mp4', 'audio/mpeg', 'audio/ogg', 'audio/vorbis', 'audio/vnd.rn-realaudio', 'audio/vnd.wave', 'audio/webm']
+
+http-media-type-image:
+    variants:
+        - "Name an image internet media type."
+    answers: ['image/gif', 'image/jpeg', 'image/pjpeg', 'image/png', 'image/svg+xml', 'image/tiff', 'image/vnd.microsoft.icon']

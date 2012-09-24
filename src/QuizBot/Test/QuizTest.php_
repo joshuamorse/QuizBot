@@ -1,0 +1,62 @@
+<?php
+
+namespace QuizBot\Test;
+
+require_once __DIR__ . '/../../../vendor/autoload.php';
+
+use QuizBot\Component\Question;
+use QuizBot\Component\Quiz;
+use Symfony\Component\Yaml\Parser;
+
+class QuizTest extends \PHPUnit_Framework_TestCase
+{
+    protected function setUp()
+    {
+        $this->yaml = new Parser();
+        $this->quiz = new Quiz();
+        $this->quiz->addCategory($this->yaml->parse(file_get_contents(__DIR__ . '/Data/category.yml')));
+        $this->quiz->prepare(10);
+    }
+
+    public function testQuiz()
+    {
+        $this->assertInstanceOf('\QuizBot\Component\Quiz', $this->quiz);
+        $repository = $this->quiz->getRepository();
+        $this->assertEquals(is_array($repository), true);
+        $this->assertEquals(count($this->quiz->getQuestions()), 10);
+    }
+
+    public function testQuestions()
+    {
+        for ($i = 0; $i < 10; $i++) {
+            $question = $this->quiz->getRandomQuestion();
+            $this->assertInstanceOf('\QuizBot\Component\Question', $question);
+            $this->assertEquals(strlen($question->getKey()) > 1, true);
+
+            // getCorrect should be null, since we haven't set it.
+            $this->assertEquals(is_null($question->getCorrect()), true);
+
+            // Ensure incorrect answers are caught.
+            $this->assertEquals($question->validate('incorrect answer here!'), false);
+
+            // question should set correct to false and not remove the question.
+            $count = count($this->quiz->getQuestions());
+            $question->setCorrect(false);
+            $this->assertEquals($question->getCorrect(), false);
+            $this->assertEquals(count($this->quiz->getQuestions()) == $count, true);
+
+            // Ensure validate returns true given a correct answer.
+            $answers = $question->getAnswers();
+            $this->assertEquals($question->validate($answers[array_rand($answers)]), true);
+
+            // Ensure setting a question as correct and removing works properly.
+            $question->setCorrect(true);
+            $this->assertEquals($question->getCorrect(), true);
+            $question->removeFromQuiz();
+            $this->assertEquals(count($this->quiz->getQuestions()) == ($count - 1), true);
+        }
+
+        $this->assertEquals(!is_null($question->getQuestion()), true);
+        $this->assertEquals(is_array($question->getAnswers()), true);
+    }
+}

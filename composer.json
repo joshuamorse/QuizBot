@@ -1,0 +1,12 @@
+{
+    "name": "joshuamorse/QuizBot",
+    "description": "A cli-based quiz app.",
+    "autoload": {
+        "psr-0": { "QuizBot": "src" }
+    },
+    "require": {
+        "twig/twig": "dev-master",
+        "symfony/yaml": "dev-master",
+        "symfony/console": "dev-master"
+    }
+}

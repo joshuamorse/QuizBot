@@ -1,0 +1,269 @@
+question1:
+    variables:
+        1: ['a', 'b', 'c', 'd', 'e']
+        2: ['1', '2', '3', '4', '5']
+    variants:
+        - 'Which of the following is a letter: {1} or {2}?'
+        - 'Identify the letter: {1}, {2}.'
+    answers: ['{1}']
+
+question2:
+    variables:
+        1: ['a', 'b', 'c', 'd', 'e']
+        2: ['1', '2', '3', '4', '5']
+    variants:
+        - 'Which of the following is a letter: {1} or {2}?'
+        - 'Identify the letter: {1}, {2}.'
+    answers: ['{1}']
+
+question3:
+    variables:
+        1: ['a', 'b', 'c', 'd', 'e']
+        2: ['1', '2', '3', '4', '5']
+    variants:
+        - 'Which of the following is a letter: {1} or {2}?'
+        - 'Identify the letter: {1}, {2}.'
+    answers: ['{1}']
+
+question4:
+    variables:
+        1: ['a', 'b', 'c', 'd', 'e']
+        2: ['1', '2', '3', '4', '5']
+    variants:
+        - 'Which of the following is a letter: {1} or {2}?'
+        - 'Identify the letter: {1}, {2}.'
+    answers: ['{1}']
+
+question5:
+    variables:
+        1: ['a', 'b', 'c', 'd', 'e']
+        2: ['1', '2', '3', '4', '5']
+    variants:
+        - 'Which of the following is a letter: {1} or {2}?'
+        - 'Identify the letter: {1}, {2}.'
+    answers: ['{1}']
+
+question6:
+    variables:
+        1: ['a', 'b', 'c', 'd', 'e']
+        2: ['1', '2', '3', '4', '5']
+    variants:
+        - 'Which of the following is a letter: {1} or {2}?'
+        - 'Identify the letter: {1}, {2}.'
+    answers: ['{1}']
+
+question7:
+    variables:
+        1: ['a', 'b', 'c', 'd', 'e']
+        2: ['1', '2', '3', '4', '5']
+    variants:
+        - 'Which of the following is a letter: {1} or {2}?'
+        - 'Identify the letter: {1}, {2}.'
+    answers: ['{1}']
+
+question8:
+    variables:
+        1: ['a', 'b', 'c', 'd', 'e']
+        2: ['1', '2', '3', '4', '5']
+    variants:
+        - 'Which of the following is a letter: {1} or {2}?'
+        - 'Identify the letter: {1}, {2}.'
+    answers: ['{1}']
+
+question9:
+    variables:
+        1: ['a', 'b', 'c', 'd', 'e']
+        2: ['1', '2', '3', '4', '5']
+    variants:
+        - 'Which of the following is a letter: {1} or {2}?'
+        - 'Identify the letter: {1}, {2}.'
+    answers: ['{1}']
+
+question10:
+    variables:
+        1: ['a', 'b', 'c', 'd', 'e']
+        2: ['1', '2', '3', '4', '5']
+    variants:
+        - 'Which of the following is a letter: {1} or {2}?'
+        - 'Identify the letter: {1}, {2}.'
+    answers: ['{1}']
+
+question11:
+    variables:
+        1: ['a', 'b', 'c', 'd', 'e']
+        2: ['1', '2', '3', '4', '5']
+    variants:
+        - 'Which of the following is a letter: {1} or {2}?'
+        - 'Identify the letter: {1}, {2}.'
+    answers: ['{1}']
+
+question12:
+    variables:
+        1: ['a', 'b', 'c', 'd', 'e']
+        2: ['1', '2', '3', '4', '5']
+    variants:
+        - 'Which of the following is a letter: {1} or {2}?'
+        - 'Identify the letter: {1}, {2}.'
+    answers: ['{1}']
+
+question13:
+    variables:
+        1: ['a', 'b', 'c', 'd', 'e']
+        2: ['1', '2', '3', '4', '5']
+    variants:
+        - 'Which of the following is a letter: {1} or {2}?'
+        - 'Identify the letter: {1}, {2}.'
+    answers: ['{1}']
+
+question14:
+    variables:
+        1: ['a', 'b', 'c', 'd', 'e']
+        2: ['1', '2', '3', '4', '5']
+    variants:
+        - 'Which of the following is a letter: {1} or {2}?'
+        - 'Identify the letter: {1}, {2}.'
+    answers: ['{1}']
+
+question15:
+    variables:
+        1: ['a', 'b', 'c', 'd', 'e']
+        2: ['1', '2', '3', '4', '5']
+    variants:
+        - 'Which of the following is a letter: {1} or {2}?'
+        - 'Identify the letter: {1}, {2}.'
+    answers: ['{1}']
+
+question16:
+    variables:
+        1: ['a', 'b', 'c', 'd', 'e']
+        2: ['1', '2', '3', '4', '5']
+    variants:
+        - 'Which of the following is a letter: {1} or {2}?'
+        - 'Identify the letter: {1}, {2}.'
+    answers: ['{1}']
+
+question17:
+    variables:
+        1: ['a', 'b', 'c', 'd', 'e']
+        2: ['1', '2', '3', '4', '5']
+    variants:
+        - 'Which of the following is a letter: {1} or {2}?'
+        - 'Identify the letter: {1}, {2}.'
+    answers: ['{1}']
+
+question18:
+    variables:
+        1: ['a', 'b', 'c', 'd', 'e']
+        2: ['1', '2', '3', '4', '5']
+    variants:
+        - 'Which of the following is a letter: {1} or {2}?'
+        - 'Identify the letter: {1}, {2}.'
+    answers: ['{1}']
+
+question19:
+    variables:
+        1: ['a', 'b', 'c', 'd', 'e']
+        2: ['1', '2', '3', '4', '5']
+    variants:
+        - 'Which of the following is a letter: {1} or {2}?'
+        - 'Identify the letter: {1}, {2}.'
+    answers: ['{1}']
+
+question20:
+    variables:
+        1: ['a', 'b', 'c', 'd', 'e']
+        2: ['1', '2', '3', '4', '5']
+    variants:
+        - 'Which of the following is a letter: {1} or {2}?'
+        - 'Identify the letter: {1}, {2}.'
+    answers: ['{1}']
+
+question21:
+    variables:
+        1: ['a', 'b', 'c', 'd', 'e']
+        2: ['1', '2', '3', '4', '5']
+    variants:
+        - 'Which of the following is a letter: {1} or {2}?'
+        - 'Identify the letter: {1}, {2}.'
+    answers: ['{1}']
+
+question22:
+    variables:
+        1: ['a', 'b', 'c', 'd', 'e']
+        2: ['1', '2', '3', '4', '5']
+    variants:
+        - 'Which of the following is a letter: {1} or {2}?'
+        - 'Identify the letter: {1}, {2}.'
+    answers: ['{1}']
+
+question23:
+    variables:
+        1: ['a', 'b', 'c', 'd', 'e']
+        2: ['1', '2', '3', '4', '5']
+    variants:
+        - 'Which of the following is a letter: {1} or {2}?'
+        - 'Identify the letter: {1}, {2}.'
+    answers: ['{1}']
+
+question24:
+    variables:
+        1: ['a', 'b', 'c', 'd', 'e']
+        2: ['1', '2', '3', '4', '5']
+    variants:
+        - 'Which of the following is a letter: {1} or {2}?'
+        - 'Identify the letter: {1}, {2}.'
+    answers: ['{1}']
+
+question25:
+    variables:
+        1: ['a', 'b', 'c', 'd', 'e']
+        2: ['1', '2', '3', '4', '5']
+    variants:
+        - 'Which of the following is a letter: {1} or {2}?'
+        - 'Identify the letter: {1}, {2}.'
+    answers: ['{1}']
+
+question26:
+    variables:
+        1: ['a', 'b', 'c', 'd', 'e']
+        2: ['1', '2', '3', '4', '5']
+    variants:
+        - 'Which of the following is a letter: {1} or {2}?'
+        - 'Identify the letter: {1}, {2}.'
+    answers: ['{1}']
+
+question27:
+    variables:
+        1: ['a', 'b', 'c', 'd', 'e']
+        2: ['1', '2', '3', '4', '5']
+    variants:
+        - 'Which of the following is a letter: {1} or {2}?'
+        - 'Identify the letter: {1}, {2}.'
+    answers: ['{1}']
+
+question28:
+    variables:
+        1: ['a', 'b', 'c', 'd', 'e']
+        2: ['1', '2', '3', '4', '5']
+    variants:
+        - 'Which of the following is a letter: {1} or {2}?'
+        - 'Identify the letter: {1}, {2}.'
+    answers: ['{1}']
+
+question29:
+    variables:
+        1: ['a', 'b', 'c', 'd', 'e']
+        2: ['1', '2', '3', '4', '5']
+    variants:
+        - 'Which of the following is a letter: {1} or {2}?'
+        - 'Identify the letter: {1}, {2}.'
+    answers: ['{1}']
+
+question30:
+    variables:
+        1: ['a', 'b', 'c', 'd', 'e']
+        2: ['1', '2', '3', '4', '5']
+    variants:
+        - 'Which of the following is a letter: {1} or {2}?'
+        - 'Identify the letter: {1}, {2}.'
+    answers: ['{1}']
